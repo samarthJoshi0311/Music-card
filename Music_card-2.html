@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Playlist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .cont
+        {    
+            background: linear-gradient(lightcoral, lightslategray, lightseagreen);
+            height: 700px;
+            width: 380px;
+            border: 1px solid  ;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        .d1
+        {
+            height: 70px;
+            /* background: lightblue; */
+            text-align: center;
+            line-height: 70px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: lightgray;
+        }
+        .d2
+        {
+            height: 250px;
+            /* background: lightcoral; */
+           
+            font-size: 20px;
+            padding: 10px;
+            padding-top: 100px;
+
+        }
+        .c1
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .fa
+        {
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .c2{
+            transform: translate(95px, -100px );
+        }
+        .fa-music
+        {   
+            border: 5px solid lightblue;
+            background: linear-gradient(purple, teal, red, yellow);
+            font-size: 120px ;
+            padding: 30px;
+        }
+        .d3
+        {
+            height: 380px;
+            width: 380px;
+            /* background: lightskyblue; */
+            /* overflow: hidden; */
+            position: relative;
+        }
+        .s1
+        {
+            height: 60px;
+            border: 1px solid;
+            border-radius:10PX ;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            line-height: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .blur
+        {
+            height: 60px;
+            width: 380px;
+            backdrop-filter: blur(1px);
+            /* border: 2px solid; */
+            position: absolute;
+            bottom: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="cont">
+        <div class="d1"><div class="r1"> SKIN - FLUME </div></div>
+        <div class="d2">
+            <div class="c1"><a href=""><i class="fa fa-heart"></i></a>
+                <a href=""><i class="fa fa-ellipsis-h"></i></a></div>
+            <div class="c2"><i class="fa fa-music"></i></div>
+            
+        </div>
+        <div class="d3">
+            <div class="blur"></div>
+            
+            <div class="s1">HELIX<BR>Flume  <a href=""><i class="fa fa-play"></i></a></div>
+            <div class="s1">Lose It<BR>Flume - Mensa  <a href=""><i class="fa fa-play"></i></a></div>
+            <div class="s1">Numb & Getting Colder<BR>Flume - KUCKA  <a href=""><i class="fa fa-pause"></i></a></div>
+            <div class="s1">Say it<BR>Flume - Tove Lo  <a href=""><i class="fa fa-play"></i></a></div>
+            <div class="s1">Wall F*ck<BR>Flume  <a href=""><i class="fa fa-play"></i></a></div>
+            <div class="s1">Pika<BR>Flume  <a href=""><i class="fa fa-play"></i></a></div>
+            <div class="s1">Diggi<BR>Flume - Max  <a href=""><i class="fa fa-play"></i></a></div>
+           
+        </div>
+    </div>
+</body>
+</html>
+
